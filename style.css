@@ -1,0 +1,443 @@
+/* ----------- Home Part ------------------ */
+
+.item {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+    opacity: 0.70;
+    
+  }
+h2{
+    text-align: center;
+    color: black;
+    margin-top: 190px;
+    font-weight: bolder;
+    font-size: 70px;
+ }
+ 
+
+.link1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+ .link1 .href a{
+    font-family:Georgia;
+    color: black;
+    padding-right:40px;
+    
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+.link1 .href{
+    text-align: center;
+    margin-left: 405px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 600px;
+}
+
+.href button{
+    background-color: rgb(132, 34, 224);
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    border-radius: 7px;
+
+}
+.href #2{
+    padding-left: 40px;
+
+}
+
+.href button:hover{
+    background-color: rgb(238, 238, 133);
+    color: rgb(3, 3, 3);
+}
+.container{
+    width: 100%;
+    height:80%
+}
+
+
+
+
+#myCarousel p{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    
+ }  
+
+
+  
+
+
+.container{
+    padding-bottom: 40px;
+}
+
+
+#myCarousel button{
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.but{
+    text-align: center;
+    padding: 0%;
+    bottom: 0%;
+    margin-top: 40px;
+    
+}
+
+
+.but button{
+    background-color: rgb(34, 202, 224);
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    text-decoration: none;
+
+    
+}
+.ton{
+  text-align: center;
+    padding: 0%;
+    bottom: 0%;
+    margin-top: 10px;
+}
+.ton button{
+  background-color: rgb(34, 202, 224);
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    font-size: 10px;
+}
+.ton button:hover{
+    background-color: rgb(133, 161, 238);
+    color: rgb(3, 3, 3);
+}
+
+
+}
+.title .para{
+    text-align: center;
+}
+
+
+.title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  
+    
+}
+
+.but button:hover{
+    background-color: rgb(133, 161, 238);
+    color: rgb(3, 3, 3);
+}
+
+.href a:hover{
+    color: rgb(34, 202, 224);
+}
+
+
+/* --------------- Welcome Part ----------------- */
+
+.second{
+    margin-bottom: 50px;
+    
+}
+
+.how{
+    text-align: center;
+    padding: 0%;
+    bottom: 0%;
+    
+
+    
+    
+}
+
+
+.how button{
+    background-color: rgb(132, 34, 224);
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    border-radius: 7px;
+    
+}
+
+.how button:hover{
+    background-color: rgb(238, 238, 133);
+    color: rgb(3, 3, 3);
+}
+
+.h2{
+  text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 3px;
+}
+
+/* -----------------Third Screen-----------------*/
+
+.para{
+    margin-left: 110px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* ------------ Team Part ----------------- */
+
+
+.fifth {
+    padding-bottom : 100px;
+    position: relative;
+  }
+
+.fifth h1{
+    margin-bottom: 40px;
+    margin-left: 300px;
+    font-size: 60px;
+ }  
+  
+  
+  .fifth .team{
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+  }
+  .teammem {
+    width: 150px;
+    margin: 25px 60px;
+  }
+  .photos:hover .logo {
+    visibility: visible;
+    display: block;
+  }
+  .members {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid var(--dark-gray);
+    margin: auto;
+  }
+  .team-heading {
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top : 80px !important;
+  }
+  .arreange {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .teammem .name {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .teammem .work {
+    color: var(--dark-gray);
+    margin: 5px auto;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .photos {
+    position: relative;
+   
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #f1a3eed5;
+    font-size: 30px;
+    padding-top: 60px;
+    display: none;
+    visibility: hidden;
+    opacity: 0.1px;
+    cursor: pointer;
+    
+  }
+  .logo a {
+    margin: 9px;
+    color : white;
+  }
+  .logo a i.facebook:hover{
+    color : #1D4ED8;
+  }
+  .logo a i.twitter:hover{
+    color : #38BDF8;
+  }
+  .logo a i.google:hover{
+    color : #EF4444;
+  }
+
+
+
+
+
+
+
+
+
+
+/* ------------ Contact Part ---------- */
+
+
+.seventh{
+    display: flex;
+    margin-top: 50px;
+}
+
+.seventh img{
+    width:50%;
+    
+    margin-left: 30px;
+}
+
+.seventh aside{
+    padding-left: 10px;
+    background-color: rgb(241, 241, 139);
+    padding-right: 310px;
+    padding-bottom: 30px;
+}
+
+.seventh aside h2{
+    text-align: left;
+}
+
+#but1{
+    padding-inline: 168px;
+    background-color: rgb(92, 31, 235);
+    color: floralwhite;
+
+}
+
+#but1:hover{
+    background-color: gold;
+    color:black;
+}
+
+
+/* -------------- Footer Part ----------- */
+
+
+.footer{
+    justify-content: center;
+   
+    
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.footer h4{
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+
+.last{
+    margin-inline: 30px;
+    text-align: center;
+}
+
+
+.Chandramani{
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* -------------------- Pricing Part -------------- */
+
+.tprice{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.price{
+    text-align: center;
+    padding-inline: 25px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 0 1px 0 0 ;
+}
+
+.price1{
+    text-align: center;
+    padding-inline: 25px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.price h4{
+    font-weight: bold;
+}
+
+.price1 h4{
+    font-weight: bold;
+}
+
+.price h7{
+    font-weight: bold;
+}
+
+.price1 h7{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.price button{
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+.price1 button{
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+.price1 button:hover{
+    background-color: yellow;
+}
+
+.price button:hover{
+    background-color: yellow;
+}
